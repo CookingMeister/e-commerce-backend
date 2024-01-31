@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
   Product.findAll({
     include: [
       {
-        model: Category, // done
+        model: Category, // tested working
       },
       {
         model: Tag,
@@ -29,7 +29,7 @@ router.get('/:id', (req, res) => {
   Product.findByPk(req.params.id, {
     include: [
       {
-        model: Category, // done
+        model: Category, // tested working
       },
       {
         model: Tag,
