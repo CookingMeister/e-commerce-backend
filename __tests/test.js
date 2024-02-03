@@ -2,6 +2,7 @@ const app = require('../server.js');
 const request = require('supertest');
 const { Tag, Category } = require('../models');
 const sequelize = require('../config/connection.js');
+const server = app.listen(); 
 
 beforeAll(async () => {
   await sequelize.sync();
@@ -99,4 +100,5 @@ describe('GET /api/tags/:id', () => {
 
 afterAll(async () => {
   await sequelize.close();
+  await new Promise(resolve => server.close(resolve));
 });
