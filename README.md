@@ -12,11 +12,11 @@ Download or clone git repository. Run `npm i` to install the app. Run `npm run s
 
 ## Usage
 
-Basic CRUD commands are available for this backend app. Test GET, POST, PUT and DELETE routes for `api/products, api/tags, api categories` as well as `/:id` for each of these endpoints using Postman or Insomnia. Status codes are also returned for each of these routes.
+Basic CRUD commands are available for this backend app. Test GET, POST, PUT and DELETE routes for `api/products, api/tags, api/categories` as well as `/:id` for each of these endpoints using Postman or Insomnia. Status codes are also returned for each of these routes.
 
 ## Demo
 
-Links to video demos of the app can be found [here](www.) for installation and [here](https://drive.google.com/file/d/1HU6C5AWw85HD91a1MfhV_EJkFylIYdjV/view?usp=sharing) for usage.
+Links to video demos of the app can be found [here](https://drive.google.com/file/d/1y_esQCzLIP0MYfziVQNAdqI7HVvXByVg/view?usp=sharing) for installation and [here](https://drive.google.com/file/d/1HU6C5AWw85HD91a1MfhV_EJkFylIYdjV/view?usp=sharing) for usage.
 
 ## Credits
 
