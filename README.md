@@ -8,7 +8,7 @@ An Express.js back end for an e-commerce site using Sequelize and MySQL2 to inte
 
 ## Installation
 
-Download or clone git repository. Run `npm i` to install the app. Run `npm run schema` to create mySQL database. Run `npm run seed` to seed the db. Run `npm start` to start the application on localhost port 3000.
+Download or clone git repository. Run `npm i` to install the app. Add your credentials to the .env file and remove .Example from the filename leaving just '.env'. Run `npm run schema` to create mySQL database. Run `npm run seed` to seed the db. Run `npm start` to start the application on localhost port 3000.
 
 ## Usage
 
