@@ -2,7 +2,7 @@ const app = require('../server.js');
 const request = require('supertest');
 const { Tag, Category } = require('../models');
 const sequelize = require('../config/connection.js');
-const server = app.listen(); 
+const server = app.listen();
 
 beforeAll(async () => {
   await sequelize.sync();
@@ -43,7 +43,7 @@ describe('GET /api/categories/:id', () => {
   });
   test('includes associated products', async () => {
     return await request(app)
-      .get(`/api/categories/${1}`) // good
+      .get(`/api/categories/${1}`)
       .then((response) => {
         expect(response.body.products).toBeDefined();
         expect(Array.isArray(response.body.products)).toBeTruthy();
@@ -97,7 +97,7 @@ describe('GET /api/tags/:id', () => {
     expect(res.body.products).toBeDefined();
   });
 });
-
+  
 afterAll(async () => {
   await sequelize.close();
   await new Promise(resolve => server.close(resolve));
