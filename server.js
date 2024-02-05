@@ -1,3 +1,7 @@
+/**
+ * Sets up an Express server with routes and a database connection.
+ * Exports the Express app instance.
+ */
 const express = require('express');
 const routes = require('./routes');
 // import sequelize connection

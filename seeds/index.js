@@ -1,3 +1,7 @@
+/**
+ * Seeds the database with sample category, product, tag and productTag data.
+ * Syncs the database, seeds each set of data, and logs the completion of each seed file.
+ */
 const seedCategories = require('./category-seeds');
 const seedProducts = require('./product-seeds');
 const seedTags = require('./tag-seeds');

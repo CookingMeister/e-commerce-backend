@@ -3,7 +3,12 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 class ProductTag extends Model {}
-
+/**
+ * Initializes the ProductTag model by:
+ * - Defining the model schema fields and their data types
+ * - Setting up associations to other models
+ * - Configuring model options like timestamps, tableName, etc.
+ */
 ProductTag.init(
   {
     id: {
